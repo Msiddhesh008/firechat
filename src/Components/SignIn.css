@@ -80,6 +80,12 @@
     transform: translateX(-0.02em);
   }
   
+  .name{
+    position: absolute;
+    color: #ccc;
+    bottom: 0;
+
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
