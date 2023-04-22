@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/firechat/static/css/main.6968446e.css",
-    "main.js": "/firechat/static/js/main.8554996f.js",
+    "main.css": "/firechat/static/css/main.476e140f.css",
+    "main.js": "/firechat/static/js/main.cece45cd.js",
     "index.html": "/firechat/index.html",
-    "main.6968446e.css.map": "/firechat/static/css/main.6968446e.css.map",
-    "main.8554996f.js.map": "/firechat/static/js/main.8554996f.js.map"
+    "main.476e140f.css.map": "/firechat/static/css/main.476e140f.css.map",
+    "main.cece45cd.js.map": "/firechat/static/js/main.cece45cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.6968446e.css",
-    "static/js/main.8554996f.js"
+    "static/css/main.476e140f.css",
+    "static/js/main.cece45cd.js"
   ]
 }
