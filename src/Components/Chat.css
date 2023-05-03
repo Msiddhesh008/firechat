@@ -3,11 +3,6 @@
 }
 .chatwrapper{
     background-color: var(--wall);
-    
-  background: url("../Images/prop.jpeg"); /* The image used */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
 }
 .chatHeader{
     height: auto;
