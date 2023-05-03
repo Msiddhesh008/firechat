@@ -4,11 +4,7 @@
 .chatwrapper{
     background-color: var(--wall);
     
-  background: linear-gradient(
-    to top,
-    rgba(255, 255, 255, 0.450) 50%,
-    rgba(255, 255, 255, 0.4) 60%
-  ), url("../Images/prop.jpeg"); /* The image used */
+  background: url("../Images/prop.jpeg"); /* The image used */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
