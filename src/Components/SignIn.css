@@ -1,11 +1,11 @@
 #signIn{
     height: 100vh;
-    background-color: #f9f8f8;
+    background-color: var(--background);
 }
 /* CSS */
 .button-42 {
   background-color: initial;
-  background-image: linear-gradient(-180deg, #65acf8, #007aff);
+  background-image: linear-gradient(-180deg, var(--btn-shadow), var(--font-primary));
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
   color: #FFFFFF;
@@ -33,13 +33,13 @@
 }
 
 .button-42:hover {
-  box-shadow: rgba(0, 67, 253, 0.5) 0 3px 8px !important;
+  box-shadow: var(--btn-hover) 0 3px 8px !important;
   color: white !important;
 }
 
 .logoCnt{
   --background-color: #ffffff;
-  --text-color: #007aff;
+  --text-color: var(--font-primary);
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@
     font-size: clamp(1.5rem, 1rem + 14vw, 15rem);
     font-weight: 700;
     text-transform: uppercase;
-    color: #007aff;
+    color: var(--font-primary);
   }
   
   .wrapper > div {
@@ -73,8 +73,8 @@
   .bottom {
     clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
     color: transparent;
-    background: -webkit-linear-gradient(177deg, black 53%, #007aff 65%);
-    background: linear-gradient(177deg, black 53%, #007aff 65%);
+    background: -webkit-linear-gradient(177deg, black 53%, var(--text-color) 65%);
+    background: linear-gradient(177deg, black 53%, var(--text-color) 65%);
     background-clip: text;
     -webkit-background-clip: text;
     transform: translateX(-0.02em);
@@ -85,6 +85,11 @@
     color: #ccc;
     bottom: 0;
 
+  }
+
+  .siddhesh{
+    color: var(--font-primary);
+    
   }
 
 /* Extra small devices (phones, 600px and down) */

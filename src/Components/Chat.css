@@ -2,20 +2,29 @@
     min-height: 100vh;
 }
 .chatwrapper{
-    background-color: #ffffff;
-    }
+    background-color: var(--wall);
+    
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.450) 50%,
+    rgba(255, 255, 255, 0.4) 60%
+  ), url("../Images/prop.jpeg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
 .chatHeader{
     height: auto;
     --background-color: #ffffff;
-    --text-color: #007aff;
-    background-color: #f9f8f8;
+    --text-color: var(--font-primary);
+    background-color: var(--header);
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .signOutBtn{
     padding: 0.8rem;
     font-weight: bold;
-    color: #007aff;
+    color: var(--font-primary);
 
 
 }
@@ -45,7 +54,7 @@
 
 .sender > .msg{
     padding: 0.2rem 0.9rem;
-    background-color: #007aff;
+    background-color: var(--font-primary);
     color: #ffffff;
     border-radius: 0.8rem 0rem 0.8rem 0.8rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -88,15 +97,15 @@
     padding: 1rem 2rem;
     border-radius: 4rem;
     font-weight: 500;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border);
     background-color: #ffffffb4;
     backdrop-filter: blur(5px);
-    outline: #007aff;
+    outline: var(--font-primary);
 
 }
 
 .chatFooter input:focus{
-    border: 1px solid #007aff;
+    border: 1px solid var(--font-primary);
 
 }
 
@@ -105,7 +114,7 @@
     right: 2rem;
     padding: 0.8rem;
     font-weight: bold;
-    color: #007aff;
+    color: var(--font-primary);
 }
 
 .logo {
